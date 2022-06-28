@@ -3,7 +3,7 @@ from urllib2 import Request, urlopen, URLError, HTTPError
 def Space(j):
 	i = 0
 	while i<=j:
-		print " ",
+		print (" "),
 		i+=1
 
 
@@ -24,14 +24,14 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print "Tamam => ",req_link
+			print ("Tamam => "),req_link
 
 def Credit():
-	Space(9); print "#####################################"
-	Space(9); print "#   +++ Emre Admin Panel Bulucu +++   #"
-	Space(9); print "#     Script by Emre Coder    #"
-	Space(9); print "#     LiceXTeam   #"
-	Space(9); print "#####################################"
+	Space(9); print ("######################")
+	Space(9); print ("# Emre Admin Panel Bulucu +++   #")
+	Space(9); print ("# Script by Emre Coder    #")
+	Space(9); print ("# LiceXTeam   #")
+	Space(9); print ("######################")
 
 Credit()
 findAdmin()
